@@ -4,7 +4,7 @@ def bubblesort(tab):
     for i in range(0, len(tab)):
         for j in range(1, len(tab)-i):
             if tab[j-1]>tab[j]: tab[j], tab[j-1] = tab[j-1], tab[j]
+            print()
     return tab
-
 
 print(f"Sorted array: {bubblesort(tab)}")
